@@ -1,8 +1,8 @@
-package com.github.AnnaTyrcz.snakeWordSimpleGame.service.impl;
+package com.github.AnnaTyrcz.SnakeWordSimpleGame.service.impl;
 
-import com.github.AnnaTyrcz.snakeWordSimpleGame.model.User;
-import com.github.AnnaTyrcz.snakeWordSimpleGame.repository.UserRepository;
-import com.github.AnnaTyrcz.snakeWordSimpleGame.service.UserService;
+import com.github.AnnaTyrcz.SnakeWordSimpleGame.model.User;
+import com.github.AnnaTyrcz.SnakeWordSimpleGame.repository.UserRepository;
+import com.github.AnnaTyrcz.SnakeWordSimpleGame.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

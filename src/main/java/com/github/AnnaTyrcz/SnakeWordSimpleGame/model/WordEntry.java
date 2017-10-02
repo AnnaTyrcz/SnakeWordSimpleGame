@@ -1,4 +1,4 @@
-package com.github.AnnaTyrcz.snakeWordSimpleGame.model;
+package com.github.AnnaTyrcz.SnakeWordSimpleGame.model;
 
 import javax.persistence.*;
 import java.time.LocalDateTime;

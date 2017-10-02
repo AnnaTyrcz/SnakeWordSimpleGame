@@ -1,4 +1,4 @@
-package com.github.AnnaTyrcz.snakeWordSimpleGame.service;
+package com.github.AnnaTyrcz.SnakeWordSimpleGame.service;
 
 import java.util.List;
 

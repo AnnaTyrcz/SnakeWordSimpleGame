@@ -1,6 +1,6 @@
-package com.github.AnnaTyrcz.snakeWordSimpleGame.controller;
+package com.github.AnnaTyrcz.SnakeWordSimpleGame.controller;
 
-import com.github.AnnaTyrcz.snakeWordSimpleGame.service.WordEntryService;
+import com.github.AnnaTyrcz.SnakeWordSimpleGame.service.WordEntryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
