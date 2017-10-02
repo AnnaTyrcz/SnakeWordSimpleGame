@@ -1,4 +1,4 @@
-package com.github.AnnaTyrcz.SnakeWordSimpleGame;
+package com.github.AnnaTyrcz.snakeWordSimpleGame;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

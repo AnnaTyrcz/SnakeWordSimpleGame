@@ -1,9 +1,6 @@
-package com.github.AnnaTyrcz.SnakeWordSimpleGame.model;
+package com.github.AnnaTyrcz.snakeWordSimpleGame.model;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.time.LocalDateTime;
 
 @Entity
@@ -14,6 +11,12 @@ public class WordEntry {
     private Long id;
     private LocalDateTime time;
     private String word;
+    @ManyToOne
+    private User user;
+
+    public User getUser() {
+        return user;
+    }
 
     public Long getId() {
         return id;
@@ -37,5 +40,8 @@ public class WordEntry {
 
     public void setWord(String word) {
         this.word = word;
+    }
+
+    public void setUser(User loggedUser) {
     }
 }
